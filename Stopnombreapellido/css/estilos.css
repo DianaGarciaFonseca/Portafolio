@@ -1,0 +1,188 @@
+@import url ('https://fonts.googleapis.com/css2? family = Kaushan + Script & display = swap');
+
+header{
+	   position: relative;
+	   margin: 20px auto;
+	   width: 1000px;
+	   height: 120px;
+	   list-style: none;	
+	   box-sizing: border-box;
+       }
+
+
+#logo{
+	  position: absolute;
+	  top: 30px;
+	  left: 30px;
+	  width: 200px;
+	  height: 60px;
+	  font-family: 'Kaushan Script', cursive;
+	  font-size: 50px;
+	  text-align: center;
+	  line-height: 60px;
+      }
+
+
+.redes{
+	   position: absolute;
+	   width: 42px;
+	   height: 42px;
+	   background: #ccc;
+	   border-radius: 100%;
+	   text-align: center;
+	   line-height: 42px;
+	   color: white;
+       }
+
+
+#icono1{
+	    top: 42px;
+	    right: 120px;
+	    background: blue;
+        }
+
+#icono2{
+	   top: 42px;
+	   right: 71px;
+	   background: green;
+
+       }
+#icono3{
+	    top: 42px;
+	    right: 19px;
+	    background: red;
+        }
+
+nav{
+	position: relative;
+	max-width: 1000px;
+	width: 100%;
+	background: rgba(100,0,255,1);
+	max-height: 50PX;
+	margin: auto;
+    }
+
+
+.botones >li{
+	    float: left;
+	    max-width: 160px;
+	    width: 100%;
+	    margin: 0px 20px;
+	    height: 48px;
+	    background: rgba(100,0,255,1);
+	    font-family: 'Kaushan Script', cursive;
+	    color: white;
+	    text-align: center;
+	    line-height: 48px;
+	    display: inline-block;
+        }
+
+
+.botones:hover li a{
+	           background: #26F9C0;
+
+               }
+.botones:active li a{
+	             background: rgba(255,0,100,1);
+
+                 }
+
+ .submenu{
+ 	      position: absolute;
+ 	      background-color: #0000FF;
+ 	      max-width: 160px;
+ 	      width: 100%;
+ 	      visibility: hidden;
+ 	      opacity: 0;
+          } 
+
+.submenu li a{
+	         line-height: 40px;
+	         color: #FFFF00;
+
+              }
+
+.submenu li a:hover{
+	               line-height: 40px;
+	               color: #FF00FF;
+	               } 
+.formulario{
+	        width: 400px;
+	        height: 200px;
+	        background-color: #
+	        color
+	        text-align
+	        box-shadow: 0px 0px 20px # ;
+
+            }
+.formulario{
+            width: 540px;
+           }            
+
+.ingreso{
+	     width: 20px;
+	     height: 70px;
+	     background-color: #984398;
+         }            
+
+
+.cajaprincipal{
+	           width: 270px;
+	           height: 350px;
+	           background-color: #000000;
+	           color: #FFFFFF;
+	           margin: 20px auto;
+	           text-align: center;
+	           box-shadow: 0px 0px 20px #000000;
+	           overflow: hidden;
+               }
+
+.encabezado{
+	        background-color: #FFFFFF;
+	        color: #000000;
+	        font-family: 'Fredoka One', cursive;
+	        padding: 20px 0;
+            } 
+
+
+.cajaperfil{
+	       width: 540px;
+           }
+
+
+ .cajaperfil p{
+ 	           color: #FFFFFF;
+ 	           font-family: 'Fredoka One', cursive;
+
+               } 
+
+ .cajaprincipal:hover{
+ 	            transform: translateX(-270px);
+ 	            transition: transform 2s linear 1s;
+ 	            }
+
+ .foto{
+ 	   width: 270px;
+ 	   text-align: center;
+ 	   margin: 20px 0;
+ 	   float: left;
+ 	   
+       }
+
+
+.foto img{
+	      width: 150px;
+	      border: 5px solid #FFFFFF;
+	      border-radius: 70%;
+
+          }
+
+
+
+ .foto img: hover{
+ 	        transform: rotate(-60deg) scale(1.5);
+ 	        transition: transform 3s ease-out 1s;
+
+ 	        }
+
+ 	        

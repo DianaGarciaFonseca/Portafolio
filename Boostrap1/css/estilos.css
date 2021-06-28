@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+    }
+  
+.container-fluid{
+	padding: 0;
+}
+
+header{
+	   padding: 10px;
+       }
+
+.logo img{
+  	     max-width: 250px;
+
+  	     }
+
+.btn-info{
+           color: #000;
+           background-color: #FFFFFF;
+           border-color: #00B2B1;
+           font-weight: bold;
+           }
+
+.btn-info:hover{
+     color: #000;
+     background-color: #00B2B1;
+     border-color: #00B2B1;
+}
+
+
+.btn-outline-info{
+     min-width: 100px;
+     width: 20%;
+     max-height: 100px;
+     height: 20%;
+     color: #752995;
+     border-color: #752995;
+     background-color: #FFFFFF;
+     font-weight: bold;
+     padding: auto;
+}
+
+.btn-outline-info:hover{
+          color: #FFFFFF;
+          background-color: #752995;
+          border-color: #752995;
+
+}
+
+
+
+nav {
+     background-color: #752995;
+     }
+
+#promo{
+	   margin: 20px auto;
+       }
+
+.seccion1{
+	      background-image: url(../imagenes/fondo.jpeg);
+	      padding: 30px;	
+	      box-shadow: 3px 3px 5px #000000;
+
+          }
+
+
+.seccion2{
+	      padding:  20px;
+	      background-color: #752995;
+	      text-align: center;
+	      box-shadow: 3px 3px 5px #000000; 
+
+          }
+
+.seccion2 h3{
+	        color: #FFFFFF;
+	        text-shadow: 2px 2px 7px #000000;
+
+            }
+
+.seccion2 img{
+         	border: 6px solid #FFFFFF;
+	        border-radius:100%;
+         	}
+
+.titulo h3{
+     text-align: center;
+     color: #752995;
+     font-weight: bold;
+     text-shadow: 2px 2px 3px #000000;
+    	         }
+hr{
+  color: #91CAF7;
+  margin: auto;
+  width: 30%;
+  border: 3px solid #91CAF7;
+  }           
+
+.card h5{
+	    text-align: center;
+	    color: #752995;
+      }	    
+.card img{
+          width: 150px;
+          margin: auto;
+      }
+
+.card p{
+	   color:  #000000;
+	   text-align: center;
+
+       }	
+
+#informacion{
+      background-image: url(../imagenes/fondo.jpeg);
+     
+
+      
+          
+ }
+ .col{
+      background-color: rgba(117,41,149,0.5);
+
+ }
+
+     
+ 
+
+.final{       
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+ }
+ .col{
+
+     padding: 20px;
+     border-bottom: 1px solid #FFFFFF;
+
+ }    
+
+       
+
+#informacion li{
+     color: #752995;
+     text-align: center;
+     list-style: none;
+
+ }         
+
+i{
+     text-align: center;
+     font-size: 30px;
+     color: #752995;
+}
+
+
+
+

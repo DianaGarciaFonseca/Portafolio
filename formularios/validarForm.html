@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title></title>
+</head>
+
+<body>
+
+<div id="hojavida">
+<form name="encuesta" method="get" action= "url">
+
+<h1> <img src="imagenes/datos.png" width="100px"> Datos Básicos </h1>
+
+
+   
+<label for="identificacion"> Número de identificación:</label>
+<input type="text" id="identificacion" name="identificacion" size="20" maxlength="20" required >
+
+<label for="apellidos"> Apellidos:</label>
+<input type="text" id="apellidos" name="apellidos" size="50" maxlength="50" required >
+
+<label for="nombres"> Nombres:</label>
+<input type="text" id="nombres" name="nombres" size="50" maxlength="50" required >
+
+<p>Nos gustaria saber mas acerca de ti...</p>
+
+<label for="gustos">Selecciona una Opcion</label>
+
+<input type="radio" name="prefe" id="opt">Ropa
+<input type="radio" name="prefe" id="opt">Zapatos
+<input type="radio" name="prefe" id="opt">Comida
+<input type="radio" name="prefe" id="opt">Viajes
+
+
+
+<label for="telefono"> Número telefónico de contacto:</label>
+<input type="number" id="telefono" name="telefono" size="20" maxlength="20"  required >
+
+<label for="direccion"> Dirección de tu residencia:</label>
+<input type="text" id="direccion" name="direccion" size="80" maxlength="80" required >
+
+<label for="correo"> Correo electrónico de contacto</label>
+<input type="email" id="correo" name="correo" size="80" maxlength="80" placeholder="usuario@dominio.com">
+
+
+<label for="perfil"> Describa su experiencia</label>
+<textarea rows="5"></textarea>
+
+
+<input type="submit" value="Enviar" />
+
+<input type="reset" value="Restablecer" />
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,235 @@
+@font-face{
+	font-family: "Comic Boys";
+	src: url("../fonts/Comic Boys.ttf") format("truetype") ;
+	font-style: normal;
+	font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+h1,h2,h3{
+	text-align: center;
+	font-family: "Comic Boys";
+	font-size: 55px;
+	
+}
+/*pagina index*/
+.principal{	
+	text-align: center;
+	justify-content: space-between;
+}
+/*.container{
+	margin top: 100px;
+	
+}*/
+.btn-secondary{
+	text-align: center;
+	background: linear-gradient(#7704E9,#F3EAEA);
+    font-family: "Comic Boys";
+    font-size: 25px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.index{
+	background-image: url('../imagenes/paul-volkmer.jpg');
+	background-size: cover;
+	
+
+}
+
+/*pagina #1*/
+
+.pagina1{
+	background-image: url('../imagenes/joshua-earle.jpg');
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	text-align: center;
+	color: #F3EAEA;
+}
+
+.caja2{	
+	background-image: url('../imagenes/paul-volkmer.jpg');
+	background-size: 100% 100%;
+	background-attachment:fixed;
+    border: 1px solid #7704E9;
+
+
+}
+.botones{
+	height: 100%;
+	padding-bottom: 20px;
+
+	
+}
+.btn-secondary{
+	margin-bottom: 40px;
+}
+.parrafo{
+    opacity: 1;
+	background-color: rgba(143,58,132,0.5);
+	border-radius: 5px;
+	border-color: 5px 5px 5px solid #7704E9; 
+	font-family: "Comic Boys";
+	font-size: 45px;
+	max-width: 400px;	
+	width: 100%;	
+	margin: 20px ;	
+	text-align: center;
+	padding: 30px;
+	
+}
+/*pagina 2*/
+
+.pagina2{
+	font-size: 35px;
+	background-image: url('../imagenes/jesse-collins.jpg');
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	text-align: center;
+	color: #F3EAEA;
+}
+select{
+	text-align: center;
+	font-size: 20px;
+	font-family: "Comic Boys";
+	background-color: #F3EAEA;
+	width: 100px;
+	min-height: 2rem;
+	height: 100%;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 3px 3px 3px #000000;
+
+}
+.caja{	
+	background-image: linear-gradient(to bottom right, rgba(228,100,100,0.8) , rgba(196,196,196,0.1));
+	border: 1px solid #7704E9;
+	border-radius: 5px;
+	max-width: 30rem;
+	width: 150%;
+	min-height: 20rem;
+	max-height: 20rem;
+	margin: 5px ;	
+	text-align: center;
+	padding: 30px;
+}
+.formulario{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#respuesta{
+    text-align: center;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #000000;
+	line-height: 55px;
+	padding: 20px;
+	max-width: 100%;
+	width: 100%;
+	max-height: 5rem;
+	min-height: 5rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+/*pagina #3*/
+
+.pagina3{
+	color: #F3EAEA;
+	font-size: 35PX;
+	text-align: center;
+	background-image: url('../imagenes/jesse-collins.jpg');
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+
+.gallery{
+	display: flex;
+	justify-content: space-evenly;
+
+	
+}
+
+.nombre{
+	font-family: "Comic Boys";
+	color: #7704e9;
+	background-image: linear-gradient(to bottom right, rgba(243,234,234,0.8) , rgba(196,196,196,0.1));
+	margin-top:10px;
+	width: 120px;
+	border-radius: 5px;	
+}
+h5{
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center; 
+}
+
+
+/*ventana modal*/
+
+.modal{
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	width: 100vh;
+	height: 75vh;
+	background-image:url(../imagenes/joshua-earle.jpg);   
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+
+.modal-content{
+	background:transparent;
+	background-image: linear-gradient(to bottom right,rgba(243,196,196,0.8),rgba(196,196,196,0.2));
+	border-radius: 5px;
+	border: 1px solid #7704E9;
+}
+
+.modal-title{
+	color: #F3EAEA;
+	font-size: 60px;
+	align-items: center;
+	font-family: "Comic Boys";
+}
+
+.modal-dialog{
+	display: flex;
+	flex-direction: column;
+}
+
+.btn-close{
+	
+	color: black;
+	align-items: flex-start;
+}
+
+.error{
+	margin-left: 600px;
+}
+.modal-body{
+	font-size: 30px;
+	font-family: "Comic Boys";
+}
+p{
+  font-family: "Comic Boys";
+  font-size: 35px;
+  text-align: center;
+  margin: top;	
+}
+
